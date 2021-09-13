@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat",sans-serif;
+    box-sizing: border-box;
+}
+.services-section{
+    background-image: url("https://www.clara.es/medio/2019/11/18/tratamientos-belleza-regalar-navidad-olga-san-bartolome_7fa8843b_1280x772.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.opacity{
+    min-height: 100vh;
+    background: rgba(77, 77, 77, 0.671);
+}
+
+.principal-content{
+    position: absolute;
+    top: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.principal-content h1{
+    font-size: 40px;
+    color: white;
+}
+
+.card{
+    width: 320px;
+    background: white;
+    border-radius: 6px;
+    padding: 10px;
+    transition: all 0.2s;
+    box-shadow: 2px 10px 13px rgba(207, 207, 207, 0.698);
+}
+
+.title-card{
+    margin-bottom: 40px;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+.container-cards{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.content-card{
+    padding: 15px;
+}

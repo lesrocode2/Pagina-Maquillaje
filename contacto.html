@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Cliente</title>
+    <link href="css/estilocontacto.css" rel="stylesheet">
+</head>
+<body>
+<section id="formulario">
+    <form name="Frmregistro" enctype="text/plain" action="mailto:lesly.nahomy07@gmail.com" method="post">
+    <h1>Formulario de Registro del Cliente</h1>
+    <label id="label">COMPLETE EL FORMULARIO CON SUS DATOS</label>
+    <p id="linea"> &nbsp;</p>
+    <label id="label">DATOS PERSONALES</label>
+
+    <label id="label">FECHA DE REGISTRO</label>
+    <input type="date" name="txtfecharegistro" required>
+
+    <label id="label">TIPO DE DOCUMENTO</label>
+    <label id="label">
+        <select name="TIPO DE DOCUMENTO">
+            <option value="DNI" selected>DNI</option>
+            <option value="CARNET DE EXTRANJERIA">CARNET DE EXTRANJERIA</option>
+        </select>
+    </label>
+
+    <label id="label">NUMERO DE DOCUMENTO</label>
+    <input type="text" name="NRO DE DOCUMENTO:" id="caja" size="60" placeholder="8 caracteres" required>
+
+    <label id="label">NOMBRES(S)</label>
+    <input type="text" name="NOMBRES(S):" id="caja" size="60" placeholder="Ingrese Nombres" required>
+
+    <label id="label">APELLIDOS (S)</label>
+    <input type="text" name="APELLIDOS(S)" id="caja" size="60" placeholder="Ingrese Apellidos" required>
+
+    <label id="label">EDAD</label>
+    <input type="text" name="EDAD" id="caja" size="60" placeholder="Ingrese Edad" required>
+
+<label id="label">SEXO</label>
+</label id="label">
+    <input type="radio" name="SEXO:" value="F" checked="checked">FEMENINO
+</label><br>
+</label id="label">
+    <input type="radio" name="SEXO:" value="M" >MASCULINO
+</label>
+
+        </select>
+    </label>
+
+    <label id="label">DATOS DE PROCEDENCIA</label>
+    <label id="label">
+        <select name="PROCEDENCIA">
+            <option value="LIMA" selected>LIMA</option>
+            <option value="PIURA">PIURA</option>
+            <option value="AREQUIPA">AREQUIPA</option>
+            <option value="TRUJILLO">TRUJILLO</option>
+            <option value="CHICLAYO">CHICLAYO</option>
+            <option value="TACNA">TACNA</option>
+            <option value="LORETO">LORETO</option>
+            <option value="ICA">ICA</option>
+        </select>
+    </label>
+
+    <label id="label">DATOS DE COMUNICACIÓN</label>
+    <label id="label">CORREO ELECTRONICO</label>
+    <input type="email" name="CORREO" id="caja" size="60" placeholder="Ingrese Email" required>
+    <label id="label">NRO. CELULAR</label>
+    <input type="text" name="NRO. CELULAR" id="caja" size="60" placeholder="Ingrese Nro Celular" required>
+    <textarea name="mensaje" placeholder="Escriba aqui lo que desea adquirir"></textarea>
+    <br>
+    <input id=boton type="submit" value="Enviar">
+    </form>
+</section>
+   
+</footer>
+</body>
+</html>

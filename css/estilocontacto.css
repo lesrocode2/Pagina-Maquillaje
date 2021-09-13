@@ -1,0 +1,64 @@
+/*Estilo para el fondo de la pagina web */
+body  {
+    font-family:'Tahoma';
+    font-size: 12px;
+    background: #f97fec;
+    background: url(https://thumbs.dreamstime.com/b/wallpaper-para-el-maquillaje-profesional-y-forme-los-cepillos-pigmentos-coloridos-103953722.jpg);
+}
+/*Estilo para el formulario*/
+#footer {
+    background:#ffc9a0;
+}
+#nav {
+    background: hotpink;
+    border: solid 2px #f500f5;
+}
+#formulario {
+    border: solid 2px #fd00e8;
+    background: #fea7e7;
+    margin: 0 auto;
+    width: 450px;
+    padding: 10px;
+}
+/*Estilo para los titulos*/
+h1 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 2px;
+    text-align: center;
+}
+/*Estilo para el textomy su linea*/
+#linea {
+color: #666666;
+margin-bottom: 5px;
+border-bottom: solid 1px #fff;
+padding-bottom: 5px;
+
+}
+/*Estilo para los textos del Formulario*/
+#label {
+    display: block;
+    font-weight: bold;
+    width: 280px;
+    font-size: 12px;
+}
+/*Estilo para la caja de texto simple*/
+#caja {
+    padding: 4px;
+    border:solid 1px #f86de1;
+    margin: 2px 0 5px 0;
+}
+
+/*Estilo para los dos botones*/
+#boton{
+    clear: both;
+    margin-left: 150px;
+    width: 125px;
+    height: 32px;
+    background: #fd777e;
+    text-align: center;
+    line-height: 31px;
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: bold;
+}
